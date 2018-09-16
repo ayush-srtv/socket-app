@@ -1,0 +1,13 @@
+{
+    "db" : {
+        "protocol" : "mongodb",
+        "host" : "localhost",
+        "port" : 27017,
+        "username" : "notification-user",
+        "password" : "notification123",
+        "database" : "notifications"
+    },
+    "server" : {
+        "port": 8080
+    }
+}
