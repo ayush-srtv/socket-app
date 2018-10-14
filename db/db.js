@@ -16,8 +16,8 @@ const connect = mongoose.connect.bind(mongoose)
 const db = {
     /**
      * @method: setup.
-     * @params: unknown.
-     * @retuns: db connection object.
+     * @param: unknown.
+     * @return: db connection object.
      */
     setup: function (){
         log(MESSAGE_TYPE.MESSAGE, "Connecting to mongodb.")

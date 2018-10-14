@@ -31,11 +31,10 @@ const showMessagePure = function ({type, message}) {
 const logger = {
     /**
      * @method logMessage
-     * @param: 
-     *  message: log message
-     *  type: log type
-     *  func: function to be executed after log
-     *  params: function params.
+     * @param message log message
+     * @param type log type
+     * @param func function to be executed after log
+     * @param params function params.
      */
     logMessageBeforeExecution: function(message, type, func, ...params){
         validateType(type)
@@ -45,11 +44,10 @@ const logger = {
     },
     /**
      * @method logMessageAfterExecution
-     * @param:
-     *  message: log message
-     *  type: log type
-     *  func: function to be executed before log
-     *  params: function params
+     * @param message log message
+     * @param type log type
+     * @param func function to be executed before log
+     * @param function params
      */
     logMessageAfterExecution: function(message, type, func, ...params){
         validateType(type)
