@@ -57,8 +57,11 @@ const logger = {
         const isPromise = possiblePromise instanceof Promise
         
         if(isPromise){
-            return func(...params)
-                    .then(()=>showMessage(type, message))
+            return possiblePromise
+                    .then((response)=>{
+                        showMessage(type, message);
+                        return response;
+                    })
         }
 
         showMessage(type, message)
