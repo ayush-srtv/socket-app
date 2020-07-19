@@ -11,7 +11,7 @@
   "dependencies": {
     "bluebird": "^3.5.2",
     "express": "^4.16.3",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "mongoose": "^5.7.5",
     "socket.io": "^2.1.1"
   }
